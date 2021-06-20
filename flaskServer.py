@@ -6,8 +6,8 @@ import witAi as chatBot
 app = Flask(__name__)
 
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
-VERIFY_TOKEN = 'test-corona-app-verify-token'# <paste your verify token here>
-PAGE_ACCESS_TOKEN = 'EAAEwvDEzEJ0BANKlvMEfvIwJzTwduQBr0IPIWXTTQXZBKbgbntBTQx0aSZBgQ3ZBzc5yzjmttwT6tiZBLWhU5JXbvqCpWiFwl1rYF9oDWPqt46iw9RvqpYMw3CMuwOMyT9H2iK79KdOHvqAxfkLWqBgaUomaphOQDEPUFAR7FAZDZD'# paste your page access token here>"
+VERIFY_TOKEN = # <paste your verify token here>
+PAGE_ACCESS_TOKEN = # paste your page access token here>"
 
 os.environ["VERIFY_TOKEN"] = VERIFY_TOKEN
 os.environ["PAGE_ACCESS_TOKEN"] = PAGE_ACCESS_TOKEN
